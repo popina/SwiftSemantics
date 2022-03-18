@@ -1,4 +1,5 @@
 import SwiftSyntax
+import SwiftSyntaxParser
 import SwiftSemantics
 import struct SwiftSemantics.Protocol
 

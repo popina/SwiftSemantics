@@ -73,7 +73,7 @@ extension Class: ExpressibleBySyntax {
         modifiers = node.modifiers?.map { Modifier($0) } ?? []
 
         #if swift(>=5.5)
-        keyword = node.classOrActorKeyword.text.trimmed
+        keyword = node.classKeyword.text.trimmed
         #else
         keyword = node.classKeyword.text.trimmed
         #endif

@@ -73,7 +73,6 @@ open class DeclarationCollector: SyntaxVisitor {
     public private(set) var variables: [Variable] = []
 
     /// Creates a new declaration collector.
-    public override init() {}
 
     // MARK: - SyntaxVisitor
 
